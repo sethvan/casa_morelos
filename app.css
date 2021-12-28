@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #ffcb6955;
+}
+
+.top-bar-container {
+  margin: 0;
+  padding: 0;
+  background-color: #15616d;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-top-bar {
+  height: 20px;
+  color: aliceblue;
+}
+
+#email-icon {
+  height: 30px;
+}
+
+@media (max-width: 1232px) {
+  .my-flag {
+    height: 0;
+  }
+  .top-bar-container {
+    justify-content: left;
+    flex-shrink: 1;
+  }
+}
+
+.book-now-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#book {
+  width: 200px;
+}
+
+@media (max-width: 596px) {
+  .phone-div {
+    margin-top: 50px;
+  }
+  #book {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    min-height: 30px;
+    min-width: 200px;
+    max-width: 400px;
+    max-height: 100px;
+  }
+}
+
+@media (max-width: 284px) {
+  .banner {
+    width: 100vw;
+  }
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+  border-radius: 35%;
+}
+.main-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+#presentationBoxes {
+  background-image: url("/images/lasislitas3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#business-links-container {
+  background-color: #ce425799;
+  padding-bottom: 10px;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#business-links-box {
+  height: auto;
+  color: aliceblue;
+}
+
+.business-links {
+  color: #38040e;
+  font-size: 20px;
+}
+
+#subfooter {
+  background-color: #264653;
+  padding-bottom: 10px;
+}
+#subfooterBoxes {
+  height: auto;
+
+  color: aliceblue;
+  font-size: x-small;
+}
+
+#aboutUsTitle,
+#aboutAreaTitle {
+  text-align: center;
+  color: darkred;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#aboutUsText,
+#aboutAreaText {
+  font-size: small;
+}
+#aboutAreaDiv,
+#aboutUsDiv {
+  background-color: beige;
+}
+#myFooter {
+  height: 37px;
+  background-color: midnightblue;
+  text-align: center;
+  color: aliceblue;
+  font-size: 10px;
+}
+
+#footer-text {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+#mainPaseo {
+  height: 300px;
+  width: auto;
+}
+.contact-us {
+  font-size: 80px;
+  font-weight: 550;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+
+#lasIslitas3 {
+  background-image: url(/images/lasislitas3.jpg);
+  height: 250px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+.contact-info-text {
+  font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+  .contact-us {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-us {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-us {
+    font-size: 45px;
+  }
+  #lasIslitas3 {
+    height: 175px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-us {
+    font-size: 35px;
+  }
+  .contact-info-text {
+    font-size: 20px;
+  }
+}
+
+.contact-info {
+  font-weight: 300;
+  margin-left: 2px;
+  border: 8px solid #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  background-color: beige;
+}
